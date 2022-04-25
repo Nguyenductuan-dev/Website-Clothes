@@ -94,7 +94,6 @@ body {
     width: 100%;
     padding: 10px 0;
     transition: .4s;
-    z-index: 1000;
 }
 /* ================ BANNER =================== */
 .banner {
@@ -186,9 +185,6 @@ body {
     text-align: center;
 }
 .product1__list {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     margin-top: 20px;
 }
 .product1__item {

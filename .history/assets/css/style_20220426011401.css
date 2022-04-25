@@ -186,9 +186,6 @@ body {
     text-align: center;
 }
 .product1__list {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     margin-top: 20px;
 }
 .product1__item {
