@@ -39,13 +39,13 @@ body {
 .header {
     background-color: #e3e6f3;
     box-shadow: 0 5px 15px rgba(0, 0, 0, .06);
-    padding: 20px 0;
 }
 .header__container {
     max-width: 1200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 0;
     margin: auto;
 }
 .navbar {
@@ -79,13 +79,10 @@ body {
     bottom: -4px;
     left: 20px;
 } 
-.scroll-header {
+.scrollheader {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
-    padding: 10px 0;
-    transition: .4s;
 }
 /* ================ BANNER =================== */
 .banner {

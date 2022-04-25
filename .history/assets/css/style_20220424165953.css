@@ -46,6 +46,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 0;
     margin: auto;
 }
 .navbar {
@@ -85,7 +86,7 @@ body {
     left: 0;
     width: 100%;
     padding: 10px 0;
-    transition: .4s;
+    transition: .3s;
 }
 /* ================ BANNER =================== */
 .banner {

@@ -8,3 +8,4 @@ function scrollheader() {
         header.classList.remove('scroll-header');
     }
 }
+window.addEventListener('scroll', scrollheader);
