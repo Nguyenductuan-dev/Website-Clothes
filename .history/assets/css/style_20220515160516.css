@@ -295,53 +295,42 @@ body {
     color: #fff;    
 }
 
-/* ================ BANNER2 =================== */
-.banner2 {
-    margin-top: 20px;
+/* ================ SM-BANNER =================== */
+.sm-banner__container {
+    
 }
-.banner2__container {
+.sm-banner__box {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-.banner__box {
-    display: flex;
+    height: 50vh;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;   
+    justify-content: center;
+    
+    width: 100%;
     background-position: top 25% right 0;
     background-size: cover;
     padding: 20px;
-    transition: 0.3s;
-}
-.banner2__box {
-    min-width: 580px;
-    height: 50vh;
 }
 .crazy-deals {
     background-image: url('../images/banner/b17.jpg');
 }
-.spring-summer {
-    background-image: url('../images/banner/b10.jpg');
-}
-.banner__box h4 {
+.sm-banner__box h4 {
     color: #fff;
     font-size: 20px;
     font-weight: 300;
 }
-.banner__box h2 {
+.sm-banner__box h2 {
     color: #fff;
-    font-size: 24px;
+    font-size: 40px;
     font-weight: 600;
 }
-.banner__box p {
+.sm-banner__box p {
     color: #fff;
     font-size: 14px;
     font-weight: 300;
     margin-bottom: 15px;
 }
-.banner__btn {
+.sm-banner__btn {
     background-color: transparent;
     padding: 10px 20px;
     font-size: 16px;
@@ -349,41 +338,4 @@ body {
     color: #fff;
     font-weight: 600;
     border: 1px solid #fff;
-    cursor: pointer;
-}
-.banner__box:hover .banner__btn {
-    background-color: #088178;
-    border: 1px solid #088178;
-}
-.banner__box span {
-    color: #ec544e;
-    font-size: 16px;
-    font-weight: 600;
-}
-.banner3__container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-.banner2__box {
-    min-width: 580px;
-    height: 50vh;
-}
-.banner3 {
-    margin-top: 40px;
-}
-.banner3__box {
-    min-width: 380px;
-    height: 50vh;
-}
-.seasonal-sale {
-    background-image: url(../images/banner/b7.jpg);
-}
-.new-footwear {
-    background-image: url(../images/banner/b4.jpg);
-}
-.t-shirst {
-    background-image: url(../images/banner/b18.jpg);
 }

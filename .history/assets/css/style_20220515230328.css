@@ -332,7 +332,7 @@ body {
 }
 .banner__box h2 {
     color: #fff;
-    font-size: 24px;
+    font-size: 40px;
     font-weight: 600;
 }
 .banner__box p {
@@ -351,14 +351,14 @@ body {
     border: 1px solid #fff;
     cursor: pointer;
 }
-.banner__box:hover .banner__btn {
+.banner__box:hover .banner2__btn {
     background-color: #088178;
     border: 1px solid #088178;
 }
 .banner__box span {
-    color: #ec544e;
-    font-size: 16px;
-    font-weight: 600;
+    color: rgb(211, 9, 9);
+    font-size: 14px;
+    font-weight: 300;
 }
 .banner3__container {
     display: flex;
@@ -366,24 +366,4 @@ body {
     align-items: center;
     flex-wrap: wrap;
     gap: 20px;
-}
-.banner2__box {
-    min-width: 580px;
-    height: 50vh;
-}
-.banner3 {
-    margin-top: 40px;
-}
-.banner3__box {
-    min-width: 380px;
-    height: 50vh;
-}
-.seasonal-sale {
-    background-image: url(../images/banner/b7.jpg);
-}
-.new-footwear {
-    background-image: url(../images/banner/b4.jpg);
-}
-.t-shirst {
-    background-image: url(../images/banner/b18.jpg);
 }
