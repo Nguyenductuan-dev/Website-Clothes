@@ -463,49 +463,16 @@ body {
     font-size: 16px;
     margin-bottom: 15px;
 }
-.footer__contact p
-.footer__install-text {
+.footer__contact p {
     font-size: 14px;
     margin-bottom: 10px;
 }
 .footer__follow {
     margin-top: 15px;
 }
-.footer__follow-link{
+.footer__follow-icon a{
     padding: 0 5px;
 }
-.footer__follow-link:hover {
-    color: #088178;
-}
-.footer__about-item a,
-.footer__account-item a {
-    display: inline-block;
+.footer__about-item {
     padding-bottom: 5px;
-    font-size: 14px;
-}
-.footer__about-item a:hover,
-.footer__account-item a:hover {
-    color: #088178;
-}
-.footer__install-link {
-    display: inline-block;
-}
-.footer__install-app {
-    margin: 15px 0;
-}
-.footer__install-img {
-    border: 1px solid #088178;
-    border-radius: 4px;
-    width: 150px;
-}
-.footer__pay-link {
-    display: inline-block;
-}
-.footer__pay-img {
-    margin-top: 10px;
-}
-.copyright {
-    font-size: 14px;
-    margin: 20px 0; 
-    text-align: center;
 }

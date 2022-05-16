@@ -483,10 +483,6 @@ body {
     padding-bottom: 5px;
     font-size: 14px;
 }
-.footer__about-item a:hover,
-.footer__account-item a:hover {
-    color: #088178;
-}
 .footer__install-link {
     display: inline-block;
 }
@@ -503,9 +499,4 @@ body {
 }
 .footer__pay-img {
     margin-top: 10px;
-}
-.copyright {
-    font-size: 14px;
-    margin: 20px 0; 
-    text-align: center;
 }

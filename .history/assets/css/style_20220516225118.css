@@ -406,7 +406,7 @@ body {
     flex-wrap: wrap;
     padding: 50px 0;
 }
-.newstext__title {
+.newstext__title, .footer__follow-title {
     font-size: 22px;
     color: #fff;
     font-weight: 700;
@@ -445,67 +445,20 @@ body {
 .footer {
     margin-top: 40px;
 }
-.footer__container {
-    display: flex;
-    justify-content: space-between;
-}
 .footer__contact {
     
 }
 .footer__contact-img {
     margin-bottom: 15px;
 }
-.footer__contact-title, 
-.footer__follow-title, 
-.footer__about-title, 
-.footer__account-title, 
-.footer__install-title {
+.footer__contact-title {
     font-size: 16px;
     margin-bottom: 15px;
 }
-.footer__contact p
-.footer__install-text {
+.footer__contact p {
     font-size: 14px;
     margin-bottom: 10px;
 }
 .footer__follow {
     margin-top: 15px;
-}
-.footer__follow-link{
-    padding: 0 5px;
-}
-.footer__follow-link:hover {
-    color: #088178;
-}
-.footer__about-item a,
-.footer__account-item a {
-    display: inline-block;
-    padding-bottom: 5px;
-    font-size: 14px;
-}
-.footer__about-item a:hover,
-.footer__account-item a:hover {
-    color: #088178;
-}
-.footer__install-link {
-    display: inline-block;
-}
-.footer__install-app {
-    margin: 15px 0;
-}
-.footer__install-img {
-    border: 1px solid #088178;
-    border-radius: 4px;
-    width: 150px;
-}
-.footer__pay-link {
-    display: inline-block;
-}
-.footer__pay-img {
-    margin-top: 10px;
-}
-.copyright {
-    font-size: 14px;
-    margin: 20px 0; 
-    text-align: center;
 }
