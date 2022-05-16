@@ -360,8 +360,6 @@ body {
     font-size: 16px;
     font-weight: 600;
 }
-
-/* ================ BANNER3 =================== */
 .banner3__container {
     display: flex;
     justify-content: space-between;
@@ -390,14 +388,13 @@ body {
     background-image: url('../images/banner/b18.jpg');
 }
 
-/* ================ NEWSLETTER =================== */
 .newsletter {
     background-image: url('../images/banner/b14.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-color: #041e42;
     background-position: 20% 30%;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 .newsletter__container {
     display: flex;
@@ -438,5 +435,5 @@ body {
     white-space: nowrap;
     padding: 10px 20px;
     border: none;
-    border-radius: 0 4px 4px 0;
+    border-radius: 3px;
 }
