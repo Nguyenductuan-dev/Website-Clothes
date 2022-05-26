@@ -56,7 +56,7 @@ body {
     align-items: center;
     margin: auto;
 }
-.navbar {
+.navbar__list {
     display: inline-block;
 }
 .navbar__item {
@@ -95,6 +95,13 @@ body {
     padding: 10px 0;
     transition: .4s;
     z-index: 1000;
+}
+.navbar__mobile {
+    display: none;
+    align-items: center;
+}
+#close {
+    display: none;
 }
 /* ================ BANNER =================== */
 .banner {
@@ -508,4 +515,53 @@ body {
     font-size: 14px;
     margin: 20px 0; 
     text-align: center;
+}
+/* =========================== FOOTER =========================== */
+@media only screen and (max-width: 769px) {
+    .header__container {
+        padding: 0 10px;
+    }
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        background-color: #e3e6f3;
+        box-shadow: 0 40px 60px rgba(0, 0, 0, .01);
+        padding: 80px 0 0 10px;
+        width: 300px;
+        transition: 0.5s linear;
+    }
+    #navbar.active {
+        right: 0;
+    }
+    .navbar__item  {
+        margin-bottom: 25px;
+    }
+    .navbar__mobile {
+        display: flex;
+        align-items: center;
+    }
+    .navbar__mobile i {
+        color: #1a1a1a;
+        font-size: 22px;
+        padding-left: 20px;
+    }
+    #close {
+        display: block;
+        padding-right: 20px;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 22px;
+    }
+    
+}
+@media only screen and (max-width: 576px) {
+    
 }
