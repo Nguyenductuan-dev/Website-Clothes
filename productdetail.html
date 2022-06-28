@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/imgs/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Website Clothes</title>
+</head>
+<body>
+    <!-- ======================= HEADER ====================== -->
+    <header class="header " id="header">
+        <div class="header__container container">
+            <a href="index.html" class="header__logo">
+                <img src="assets/images/logo.png" alt="" class="header__logo-img">
+            </a>
+    
+            <div class="navbar" >
+                <ul class="navbar__list" id="navbar">
+                    <li class="navbar__item ">
+                        <a href="index.html" class="navbar__link navbar__active">Home</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="shop.html" class="navbar__link">Shop</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="blog.html" class="navbar__link">Blog</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="about.html" class="navbar__link">About</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="contact.html" class="navbar__link">Contact</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="cart.html" class="navbar__link">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                    </li>
+                    
+                    <a href="" class="navbar__link">
+                        <i id="close" class="fas fa-times"></i>
+                    </a>
+                    
+                    
+                </ul>
+            </div>
+
+            <div class="navbar__mobile" id="navbar__mobile">
+                <a href="cart.html" class="navbar__link">
+                    <i class="fas fa-shopping-cart"></i>
+                </a>
+                <i id="icon-navbar" class="fas fa-outdent"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- ======================= PRODUCT DETAIL ====================== -->
+    <section id="prodetails" class="prodetails container">
+        <div class="prodetails__img">
+            <div class="prodetails__box-main-img">
+                <img src="./assets/images/products/f1.jpg" id="main__img" class="main__img" alt="">
+                <div class="control prev"><i class="fas fa-angle-left"></i></div>
+                <div class="control next"><i class="fas fa-angle-right"></i></div>
+            </div>
+            <div class="prodetails__thumb">
+                <div class="prodetails__thumb-img img-active">
+                    <img src="/assets/images/products/f1.jpg" alt="">
+                </div>
+
+                <div class="prodetails__thumb-img">
+                    <img src="/assets/images/products/f2.jpg" alt="">
+                </div>
+
+                <div class="prodetails__thumb-img">
+                    <img src="/assets/images/products/f3.jpg" alt="">
+                </div>
+
+                <div class="prodetails__thumb-img">
+                    <img src="/assets/images/products/f4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="prodetails__content">
+            <h6 class="prodetails__portfolio">Home / T-shirt</h6>
+            <h1 class="prodetails__title">Cartoon Astronaut T-shirts</h1>
+            <h2 class="prodetails__price">$139.00</h2>
+            <select name="" id="" class="prodetails__select">
+                <option value="">Select size</option>
+                <option value="">S</option>
+                <option value="">M</option>
+                <option value="">L</option>
+                <option value="">XL</option>
+                <option value="">XXL</option>
+            </select>
+            <input class="prodetails__input-number" type="number" value="1">
+            <button class="btn prodetails__btn">Add To Cart</button>
+            <h4 class="prodetails__title-detail">Product Details</h4>
+            <p class="prodetails__text-content">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque labore praesentium placeat velit, quibusdam, 
+                voluptas iste autem cupiditate commodi dolores eos voluptatem harum accusamus natus doloremque earum, architecto eligendi nostrum.
+            </p>
+        </div>
+    </section>
+
+    <!-- ======================= PRODUCT ====================== -->
+    <section class="product container" id="product">
+        <div class="product__heading">
+            <h2 class="product__heading-title">Feature Products</h2>
+            <p class="product__heading-description">Summer Collection New Morden Design</p>
+        </div>
+        <div class="product__list">
+            <div class="product__item">
+                <a href="" class="product__link">
+                    <img src="assets/images/products/n1.jpg" alt="" class="product__img">
+                    <div class="product__des">
+                        <span class="product__brand">adidas</span>
+                        <h5 class="product__title">Cartoon Astronaut T-shirts</h5>
+                        <div class="product__rate">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="product__price">$78</h4>
+                    </div>
+                    <a href="#" class="product__cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </a>
+            </div>
+            <div class="product__item">
+                <a href="" class="product__link">
+                    <img src="assets/images/products/n2.jpg" alt="" class="product__img">
+                    <div class="product__des">
+                        <span class="product__brand">adidas</span>
+                        <h5 class="product__title">Cartoon Astronaut T-shirts</h5>
+                        <div class="product__rate">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="product__price">$78</h4>
+                    </div>
+                    <a href="#" class="product__cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </a>
+            </div>
+            <div class="product__item">
+                <a href="" class="product__link">
+                    <img src="assets/images/products/n3.jpg" alt="" class="product__img">
+                    <div class="product__des">
+                        <span class="product__brand">adidas</span>
+                        <h5 class="product__title">Cartoon Astronaut T-shirts</h5>
+                        <div class="product__rate">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="product__price">$78</h4>
+                    </div>
+                    <a href="#" class="product__cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </a>
+            </div>
+            <div class="product__item">
+                <a href="" class="product__link">
+                    <img src="assets/images/products/n4.jpg" alt="" class="product__img">
+                    <div class="product__des">
+                        <span class="product__brand">adidas</span>
+                        <h5 class="product__title">Cartoon Astronaut T-shirts</h5>
+                        <div class="product__rate">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4 class="product__price">$78</h4>
+                    </div>
+                    <a href="#" class="product__cart">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ======================= NEWSLETTER ====================== -->
+    <section class="newsletter" id="newsletter">
+        <div class="newsletter__container container">
+            <div class="newstext">
+                <h4 class="newstext__title">Sign up for newsletter</h4>
+                <p class="newstext__desp">Get E-mail updates about our latest shop and <span>special offers.</span></p>
+            </div>
+            <div class="newsform">
+                <input class="newsform__input" type="text" placeholder="Your email address">
+                <button class="newsform__btn">Sign Up</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================= FOOTER ====================== -->
+    <footer class="footer" id="footer">
+        <div class="footer__container container">
+            <div class="footer__contact">
+                <img src="./assets/images/logo.png" alt="" class="footer__contact-img">
+                <h4 class="footer__contact-title">Contact</h4>
+                <p class="footer__contact-address"><strong>Address: </strong> 562 Wellington Road, Street 32, San Francisco</p>
+                <p class="footer__contact-address"><strong>Address: </strong> 0974.232.373 - 0974.753.632</p>
+                <p class="footer__contact-hours "><strong>Hours: </strong> 10:00 - 18:00, Mon - Sat</p>
+
+                <div class="footer__follow">
+                    <h4 class="footer__follow-title">Follow us</h4>
+                    <div class="footer__follow-icon">
+                        <a href="" class="footer__follow-link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="" class="footer__follow-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="" class="footer__follow-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="" class="footer__follow-link">
+                            <i class="fab fa-pinterest-p"></i>
+                        </a>
+                        <a href="" class="footer__follow-link">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer__about">
+                <h4 class="footer__about-title">About</h4>
+                <ul class="footer__about-list">
+                    <li class="footer__about-item">
+                        <a href=""> About </a>
+                    </li>
+                    <li class="footer__about-item">
+                        <a href=""> Delivery Information </a>
+                    </li>
+                    <li class="footer__about-item">
+                        <a href=""> Privacy Policy </a>
+                    </li>
+                    <li class="footer__about-item">
+                        <a href=""> Terms & Conditions </a>
+                    </li>
+                    <li class="footer__about-item">
+                        <a href=""> Contact us </a>
+                    </li>
+                </ul>
+                
+            </div>
+
+            <div class="footer__account">
+                <h4 class="footer__account-title">About</h4>
+                <ul class="footer__account-list">
+                    <li class="footer__account-item">
+                        <a href=""> Sign in </a>
+                    </li>
+                    <li class="footer__account-item">
+                        <a href=""> View cart </a>
+                    </li>
+                    <li class="footer__account-item">
+                        <a href=""> My Wishlist </a>
+                    </li>
+                    <li class="footer__account-item">
+                        <a href=""> Track My Order</a>
+                    </li>
+                    <li class="footer__account-item">
+                        <a href=""> Help </a>
+                    </li>
+                </ul>
+                
+            </div>
+
+            <div class="footer__install">
+                <h4 class="footer__install-title">Install App</h4>
+                <p class="footer__install-text">From App Store or Google Play</p>
+                <div class="footer__install-app">
+                    <a href="" class="footer__install-link">
+                        <img src="./assets/images/pay/app.jpg" alt="" class="footer__install-img">
+                    </a>
+                    <a href="" class="footer__install-link">
+                        <img src="./assets/images/pay/play.jpg" alt="" class="footer__install-img">
+                    </a>
+                </div>
+                <div class="footer__pay">
+                    <p class="footer__install-text">Secured Payment Gateways</p>
+                    <a href="" class="footer__pay-link">
+                        <img src="./assets/images/pay/pay.png" alt="" class="footer__pay-img">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            2021 Copyright by Me
+        </div>
+    </footer>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
