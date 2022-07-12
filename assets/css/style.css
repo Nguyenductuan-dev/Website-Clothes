@@ -110,6 +110,7 @@ body {
 .banner {
     background-image: url('../images/hero4.png');
     width: 100%;
+    background-repeat: no-repeat;
     background-position: top 25% right 0;
     background-size: cover;
     padding: 0 80px;
@@ -458,6 +459,7 @@ body {
 .footer__container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .footer__contact {
     
@@ -478,7 +480,10 @@ body {
     font-size: 14px;
     margin-bottom: 10px;
 }
-.footer__follow {
+.footer__contact-img {
+    width: 200px;
+}
+.footer__follow-us {
     margin-top: 15px;
 }
 .footer__follow-link{
@@ -651,8 +656,9 @@ body {
 
 
 @media only screen and (max-width: 769px) {
-    .header__container {
-        padding: 0 10px;
+    .container {
+        padding-right: 10px;
+        padding-left: 10px;
     }
     #navbar {
         display: flex;
@@ -693,7 +699,40 @@ body {
         color: #222;
         font-size: 22px;
     }
-    
+    .banner {
+        background-position: top 30% right 40%;
+    }
+    .banner__container {
+        height: 60vh;
+    }
+    .feature__box {
+        width: 32%;
+    }
+    .product__list {
+        justify-content: center;
+    }
+    .product__item {
+        margin: 15px;
+    }
+    .banner2__box {
+        min-width: 100%;
+        height: 30vh;
+    }
+    .banner3__box {
+        min-width: 31%;
+        width: 31%;
+    }
+    .newsletter__container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .newsform {
+        width: 80%;
+        margin-top: 20px;
+    }
+    .footer__contact {
+        margin-bottom: 30px;
+    }
 }
 @media only screen and (max-width: 576px) {
     
