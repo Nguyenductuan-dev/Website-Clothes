@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+html {
     font-family: 'Lato', sans-serif;
 }
 h1 {
@@ -653,7 +655,27 @@ body {
 }
 
 
-
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+    .container {
+        padding-left:10px;
+        padding-right:10px;
+    }
+    .banner {
+        background-position: top 30% right 40%;
+    }
+    .feature__box {
+        width: 31%;
+    }
+    .product__item {
+        width: 48%;
+    }
+    .banner2__box {
+        width: 100%;
+    }
+    .banner3__box {
+        width: 48%;
+    }
+}
 
 @media only screen and (max-width: 769px) {
     .container {
@@ -733,6 +755,13 @@ body {
     .footer__contact {
         margin-bottom: 30px;
     }
+    .feature__box {
+        width: 48%;
+    }
+    .feature__title {
+        font-size: 18px;
+    }
+    
 }
 @media only screen and (max-width: 576px) {
     

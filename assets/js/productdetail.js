@@ -18,13 +18,13 @@ function changeImageByIndex(index) {
 }
 
 thumbImg.forEach((imgElement, index) => {
-    imgElement.addEventListener("click", e => {
+    imgElement.addEventListener('click', e=> {
         changeImageByIndex(index);
     })
 });
 
-prevBtn.addEventListener("click", e =>{
-    if(currentIndex == 0) {
+prevBtn.addEventListener('click', e=>{
+    if(currentIndex == 0) { 
         currentIndex = thumbImg.length - 1;
     }
     else {
@@ -33,7 +33,8 @@ prevBtn.addEventListener("click", e =>{
 
     changeImageByIndex(currentIndex);
 })
-nextBtn.addEventListener("click", e =>{
+
+nextBtn.addEventListener('click', e=>{
     if(currentIndex == thumbImg.length - 1) {
         currentIndex = 0;
     }
